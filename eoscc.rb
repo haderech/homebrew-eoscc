@@ -1,9 +1,9 @@
 class Eoscc < Formula
 
-   homepage "https://github.com/turnpike2/eoscc"
+   homepage "https://github.com/turnpike/eoscc"
    revision 0
-   url "https://github.com/turnpike2/eoscc/archive/v1.6.5.tar.gz"
-   version "1.6.5"
+   url "https://github.com/turnpike/eoscc/archive/v1.7.0.tar.gz"
+   version "1.7.0"
    
    option :universal
 
@@ -21,8 +21,8 @@ class Eoscc < Formula
    depends_on :arch =>  :intel
   
    bottle do
-      root_url "https://github.com/turnpike2/eoscc/releases/download/v1.6.5"
-      sha256 "dd206e365390ab9f0a7ef0ac04aec0f69fedec783f546b1ee350b4bc351d738a" => :mojave
+      root_url "https://github.com/turnpike/eoscc/releases/download/v1.7.0"
+      sha256 "e41823fb455b89f7b3743c0b507c9b384ae616261eff4c90f190d720c3dafb13" => :catalina
    end
    def install
       raise "Error, only supporting binary packages at this time"
